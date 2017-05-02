@@ -11,7 +11,7 @@ Para añadir el link de rappi a tu página web debes seguir estos pasos:
 2. Agregar este script antes de finalizar el 'body':
 
 ```
-<script src="http://amp-ejemplo-tomalo.epizy.com/linkRappi.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/rappi-images-01-prod/web/linkRappi.min.js"></script>
 ```
 
 3. Para ejecutar el plugin solo debes añadir estas linea despues de donde se agrego el script anterior:
