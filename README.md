@@ -8,7 +8,7 @@ Para añadir el link de rappi a tu página web debes seguir estos pasos:
 <div id="linkRappi"></div>
 ```
 
-2. Agregar este script antes de finalizar el '</body>':
+2. Agregar este script antes de finalizar el 'body':
 
 ```
 <script src="http://amp-ejemplo-tomalo.epizy.com/linkRappi.min.js"></script>
