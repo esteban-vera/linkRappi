@@ -33,6 +33,10 @@ esta función recibe 2 parametros:
   radius = deja las esquinas redondeadas
   
   big    = es un poco mas grande el botón
+  
+  white  = Color blanco
+  
+  red    = color rojo
 
 * Url donde va direccionar, tener en cuenta que si se ingresa un nombre con espacios se reemplazara con guiones(-),
   ejemplo: 'mi restaurante' = mi-restaurante
