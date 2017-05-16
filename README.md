@@ -52,3 +52,14 @@ esta función recibe 2 parametros:
     })();
   </script>
 ```
+
+si desea dejar el boton por defecto y solo agregar la url del restaurante:
+
+```
+  <script>
+    (function() {
+      addLinkRappi('', 'mi restaurante');
+    })();
+  </script>
+```
+
