@@ -43,7 +43,7 @@ esta función recibe 2 parametros:
 
 
 
-## Ejemplo con configuración
+## Ejemplo configuración
 
 ```
   <script>
@@ -63,3 +63,78 @@ si desea dejar el boton por defecto y solo agregar la url del restaurante:
   </script>
 ```
 
+## Ejemplo botones:
+
+1. Por defecto:
+```
+  <script>
+    (function() {
+      addLinkRappi('', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-default.png?raw=true)
+
+2. Por defecto con sombra:
+```
+  <script>
+    (function() {
+      addLinkRappi('shadow', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-default-shadow.png?raw=true)
+
+3. Con bordes redondeados:
+```
+  <script>
+    (function() {
+      addLinkRappi('radius', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-radius.png?raw=true)
+
+4. Con bordes redondeados y sombra:
+
+```
+  <script>
+    (function() {
+      addLinkRappi('radius shadow', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-radius-shadow.png?raw=true)
+
+5. Con fondo blanco:
+
+```
+  <script>
+    (function() {
+      addLinkRappi('white', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-white.png?raw=true)
+
+
+6. Con fondo naranja:
+
+```
+  <script>
+    (function() {
+      addLinkRappi('red', 'mi restaurante');
+    })();
+  </script>
+```
+![alt text](https://github.com/esteban-vera/linkRappi/blob/master/images/button-red.png?raw=true)
+
+
+Si desea el boton mas grande agregar la palabra 'big', ejemplo: 
+
+```
+  <script>
+    (function() {
+      addLinkRappi('radius shadow big', 'mi restaurante');
+    })();
+  </script>
